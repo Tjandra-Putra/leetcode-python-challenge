@@ -29,3 +29,12 @@ def contains_duplicate2(nums):
     return False
 
 print(contains_duplicate2([5, 2, 4, 1,2]))
+
+# using set and comparing the length
+def contains_duplicate3(nums):
+    unique_nums = set(nums)
+
+    if len(unique_nums) == len(nums):
+        return False
+        
+    return True
