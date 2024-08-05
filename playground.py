@@ -1,3 +1,3 @@
-nums = [1,2,3,1]
+nums = [1,2,2,14]
 
-print(set(nums))
+print(sorted(nums))
